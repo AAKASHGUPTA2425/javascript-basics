@@ -49,9 +49,22 @@ const user =[
         name:"aaka"
     },
 ]
-console.log(user[1].email);
-console.log(newtinders);
-console.log(Object.keys(newtinders));//it will show as array
-console.log(Object.values(newtinders));//it will show as array
-console.log(Object.entries(newtinders));//it will show as array
-console.log(newtinders.hasOwnProperty('isloggedin'));
+// console.log(user[1].email);
+// console.log(newtinders);
+// console.log(Object.keys(newtinders));//it will show as array
+// console.log(Object.values(newtinders));//it will show as array
+// console.log(Object.entries(newtinders));//it will show as array
+// console.log(newtinders.hasOwnProperty('isloggedin'));
+const course={
+    coursename:"aakash ki class",
+    courseinstructure:"aakash gupta",
+    coursefees:999
+}
+const{courseinstructure:instructure}=course
+console.log(instructure);
+
+// {
+//     "car":"bmw",
+//    " carmanufacturing":"03/feb/2023"
+    
+// } this is type of json
