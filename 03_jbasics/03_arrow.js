@@ -30,7 +30,10 @@ const chai=function(){
 // }
 // chai()
 
-const arrowfunction =(num1,num2) => {
-  return num1+num2
-}
+// const arrowfunction =(num1,num2) => {
+//   return num1+num2
+// const arrowfunction =(num1,num2)=>(num1+num2)
+// const arrowfunction =(num1,num2)=>num1+num2
+const arrowfunction =(num1,num2)=>({username:"aakash"})
+
 console.log(arrowfunction(3,4));
